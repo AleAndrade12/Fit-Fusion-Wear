@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos generales para el cuerpo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c4e2f5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; /* Asegúrate de que el body tome todo el alto disponible */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    padding: 0px;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+/* Estilo para el contenedor del formulario */
+.form-table-style {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos dentro se ajusten cuando sea necesario */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    max-width: 950px;
+    border: 1px solid #ddd;
+    gap: 20px; /* Añadido para crear espacio entre las columnas */
+    margin-bottom: 50px;
+}
+
+/* Estilo para los títulos h2 */
+.form-table-style h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    text-align: left; 
+    width: 100%; /* Asegura que el título esté en toda la fila */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    padding: 0px;
+}
+
+/* Formularios - Separados en dos columnas */
+.form-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Aumentado para crear más espacio entre los campos */
+    width: 48%; /* Puedes disminuir este valor si deseas más espacio entre las columnas */
+}
+
+/* Etiquetas y campos del formulario */
+.form-table-style label {
+    font-weight: bold;
+}
+
+.form-table-style input[type="text"],
+.form-table-style input[type="number"],
+.form-table-style input[type="file"],
+.form-table-style input[type="password"],
+.form-table-style input[type="email"],
+.form-table-style textarea,
+.form-table-style select {
+    padding: 10px; /* Aumentado para dar más espacio a los campos de entrada */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para el botón */
+.form-table-style button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #46eedd;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.form-table-style button:hover {
+    background-color: #1997d1;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos generales para el cuerpo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c4e2f5;
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Asegura que el ancho del cuerpo no exceda el viewport */
+    height: 100vh; /* Asegura que el alto no exceda el viewport */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+/* Estilos para el contenedor principal */
+.index {
+    background-color: #ffffff; 
+    padding: 20px;
+    width: 1100px;
+    height: 400px;
+    margin: 50px 125px;
+    display: block;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor del encabezado */
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 55px 20px; 
+}
+
+
+.project-name {
+    flex: 1; 
+    text-align: center; 
+    font-size: 40px; 
+    color: #00897b; 
+}
+
+.logo-container {
+    flex: 1; 
+    text-align: center; 
+}
+
+.logo-container img {
+    max-width: 350px; 
+    height: auto; 
+    text-align: center;
+}
+
+.project-name a {
+    display: block; 
+    margin-top: 10px;
+    font-size: 16px;
+    color: #00897b; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.project-name a:hover {
+    text-decoration: underline; 
+}
